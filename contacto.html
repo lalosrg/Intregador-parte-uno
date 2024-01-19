@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Simpsons | Tazas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="icon" type="icon/png" href="img/logo.png">
+    <script src="https://kit.fontawesome.com/3e5f28a0fa.js" crossorigin="anonymous"></script>
+   
+ 
+</head>
+<body>
+    <header>
+        <header class="header">
+            <a class="logo" href="index.html">
+                <img src="img/logo.png" alt="">
+                <h1><strong>Mercado Simpsons</strong> <br>Articulos</h1>
+            </a>
+            <nav class="nav_resp">
+                
+                <input type="checkbox" id="check"> 
+                <label  for="check" class="menu-ham">
+                    <i class="menu-icono"><img src="./img/ham3.png" alt=""></i>
+                </label>
+                
+                <ul class="nav_links">
+                    <li><a href="tazas.html">Tazas</a></li>
+                    <li><a href="remeras.html">Remeras</a></li>
+                    <li><a href="tasaciones.html">Impresiones</a></li>
+                    <li><a href="funko.html">Funkos</a></li>
+                    <a href="nosotros.html" class="btn_header"><button>Nosotros</button></a>
+                </ul>
+                
+                
+            </nav>
+        </header>
+        </div>
+    </header>
+
+    <main>
+
+
+
+        <div class="banner_venta">
+                <div class="desa"><h2>Contacto</h2></div>
+               
+             <div class="ola-venta" style="height: 120px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C210.21,168.27 224.32,-36.00 500.00,49.98 L500.00,150.00 L-7.62,164.31 Z" style="stroke: none;"></path></svg></div>
+        </div>
+
+        <button class="switch-background" id="switch">
+            <span>
+                <i class="fa-solid fa-sun"></i>
+            </span>
+            <span>
+                <i class="fa-solid fa-moon"></i>
+            </span>
+        </button>
+
+        
+      
+ 
+        
+        <!--REVISAR BIEN GENERAL_CATEGORIAS-->
+
+    <div class="general_categorias">
+        <ins><h2>Formulario de contacto</h2></ins>
+        <br>
+        <br>
+        <br>
+   
+        <div class="contenedor-contacto">   
+                
+            <div id="formulario">
+                <form>
+                    <label for="tfNombre">Nombres:</label><br />
+                    <input type="text" class="campo" id="tfNombre" placeholder="Ingrese sus nombres."><br />
+
+                    <label for="tfApellidos">Apellidos:</label><br />
+                    <input type="text" class="campo" id="tfApellidos" placeholder="Ingrese sus apellidos."><br />
+
+                    <label for="tfCorreo">Correo electrónico:</label><br/>
+                    <input type="email" class="campo" id="tfCorreo" placeholder="cosmefulanito@gmail.com"><br />
+
+                    <label for="tfTelefono">Numero de telefono:</label><br/>
+                    <input type="number" class="campo" id="tfTelefono" placeholder="(011) _ _ _ _ _ _ _ _ "><br />
+
+                    <label for="tfAsunto">Asunto:</label><br />
+                    <input type="text" class="campo" id="tfAsunto" placeholder="Quiero tasar mi propiedad."><br />
+
+                    <label for="tfMensaje">Mensaje:</label><br />
+                    <textarea class="campo" id="tfMensaje" cols="30" rows="10" maxlength="140" placeholder="Ingrese hasta 140 caracteres."></textarea><br />
+                    <input type="submit" onclick="return validarFormulario()" value="ENVIAR FORMULARIO!" class="boton">
+
+                    
+                    </form>
+            </div> 
+
+          </div>  
+        
+      
+
+
+    </div>
+        
+        
+
+    </main>
+
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="mail-outline"></ion-icon></a></li>
+        </ul>
+        <ul class="menu_footer">
+            <li><a href="tazas.html">Tazas</a></li>
+            <li><a href="remeras.html">Remeras</a></li>
+            <li><a href="impresiones.html">Impresiones</a></li>
+            <li><a href="funko.html">Funkos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+        
+        <p>© Leandro Sorgetti Prop. | Monteagudo 47, Marcos Paz.</p>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/formulario.js"></script>
+    
+
+</body>
+</html>
